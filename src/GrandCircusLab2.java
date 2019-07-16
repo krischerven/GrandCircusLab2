@@ -12,8 +12,7 @@ public class GrandCircusLab2 {
 			System.out.println("Room perimeter: " + perimeter(length, width));
 			System.out.println("Continue? (y/n)");
 			s.nextLine(); // clear the buffer
-			var _cont = s.nextLine();
-			if (!_cont.toLowerCase().equals("y")) {
+			if (!s.nextLine().toLowerCase().equals("y")) {
 				s.close();
 				break;
 			}
