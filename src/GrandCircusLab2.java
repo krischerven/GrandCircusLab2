@@ -26,6 +26,4 @@ public class GrandCircusLab2 {
 	private static double perimeter(double width, double height) {
 		return (2*width)+(2*height);
 	}
-	
-	
 }
