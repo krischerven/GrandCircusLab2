@@ -8,8 +8,8 @@ public class GrandCircusLab2 {
 			var length = s.nextDouble();
 			System.out.println("Enter the width of the classroom.");
 			var width = s.nextDouble();
-			System.out.println("Room area: " + area(length, width));
-			System.out.println("Room perimeter: " + perimeter(length, width));
+			System.out.printf("Room area: %.2f\n", area(length, width));
+			System.out.printf("Room perimeter: %.2f\n", perimeter(length, width));
 			System.out.println("Continue? (y/n)");
 			s.nextLine(); // clear the buffer
 			if (!s.nextLine().toLowerCase().equals("y")) {
