@@ -2,12 +2,12 @@ import java.util.Scanner;
 
 public class GrandCircusLab2 {
 	public static void main(String[] args) {
-		var s = new Scanner(System.in);
+		Scanner s = new Scanner(System.in);
 		while (true) {
 			System.out.println("Enter the length of the classroom.");
-			var length = s.nextDouble();
+			double length = s.nextDouble();
 			System.out.println("Enter the width of the classroom.");
-			var width = s.nextDouble();
+			double width = s.nextDouble();
 			System.out.printf("Room area: %.2f\n", area(length, width));
 			System.out.printf("Room perimeter: %.2f\n", perimeter(length, width));
 			System.out.println("Continue? (y/n)");
